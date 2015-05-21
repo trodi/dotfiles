@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# call me to start the show
+
+echo 'setting up computer...'
+
+# Check for Homebrew
+if test ! $(which brew)
+then
+  echo '  Installing x-code for you.'
+  xcode-select --install
+  echo "  Installing Homebrew for you."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+brew update
+
+echo '  Installing brew-cask and gui apps...'
+brew install caskroom/cask/brew-cask
+brew cask install google-chrome	
+brew cask install caskroom/homebrew-versions/java6
+brew cask install intellij-idea
+
+echo 'all done fool!'
