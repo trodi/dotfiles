@@ -14,11 +14,25 @@ then
 fi
 
 brew update
+echo '  Installing brew cmd utils...'
+brew install node
 
 echo '  Installing brew-cask and gui apps...'
 brew install caskroom/cask/brew-cask
+# general apps
 brew cask install google-chrome	
-brew cask install caskroom/homebrew-versions/java6
-brew cask install intellij-idea
+brew cask install gimp
+
+# source control apps
+brew cask install github
+brew cask install sourcetree
+
+# dev apps
+brew cask install atom
+# brew cask install caskroom/homebrew-versions/java6
+# brew cask install intellij-idea
+
+# personal
+# brew cask install plex-home-theater
 
 echo 'all done fool!'
