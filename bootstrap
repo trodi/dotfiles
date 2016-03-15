@@ -35,4 +35,16 @@ brew cask install atom
 # personal
 # brew cask install plex-home-theater
 
+echo 'setting up osx preferences...'
+# set a shorter Delay until key repeat
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
+
+# Bottom left screen corner → Start screen saver
+defaults write com.apple.dock wvous-bl-corner -int 5
+defaults write com.apple.dock wvous-bl-modifier -int 0
+
+# Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
 echo 'all done fool!'
