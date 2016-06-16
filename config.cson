@@ -1,0 +1,22 @@
+"*":
+  "atom-typescript": {}
+  core: {}
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "f7a458c4-0059-94aa-5d24-065e8a046778"
+  linter:
+    errorPanelHeight: 50
+  "markdown-preview":
+    useGitHubStyle: true
+  welcome:
+    showOnStartup: false
+".source.ts":
+  editor:
+    tabLength: 4
+".source.tsx":
+  editor:
+    tabLength: 4
