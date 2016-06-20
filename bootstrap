@@ -17,14 +17,13 @@ brew update
 echo '  Installing brew cmd utils...'
 brew install node
 
-echo '  Installing brew-cask and gui apps...'
-brew install caskroom/cask/brew-cask
+echo '  Installing gui apps via homebrew-cask...'
 # general apps
 brew cask install google-chrome	
 brew cask install gimp
 
 # source control apps
-brew cask install github
+brew cask install github-desktop
 brew cask install sourcetree
 
 # dev apps
