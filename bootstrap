@@ -22,6 +22,7 @@ echo '  Installing gui apps via homebrew-cask...'
 brew cask install google-chrome	
 brew cask install gimp
 brew cask install anki
+brew cask install teamviewer
 
 # source control apps
 brew cask install github-desktop
