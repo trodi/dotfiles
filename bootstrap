@@ -23,6 +23,7 @@ brew cask install google-chrome
 brew cask install gimp
 brew cask install anki
 brew cask install teamviewer
+brew install Caskroom/cask/ccleaner
 
 # source control apps
 brew cask install github-desktop
