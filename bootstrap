@@ -36,10 +36,9 @@ brew cask install atom
 # brew cask install plex-home-theater
 
 echo 'setting up osx preferences...'
-# set a shorter Delay until key repeat
-defaults write NSGlobalDomain InitialKeyRepeat -int 12
-# Set a really fast key repeat.
-defaults write NSGlobalDomain KeyRepeat -int 0
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Bottom left screen corner → Start screen saver
 defaults write com.apple.dock wvous-bl-corner -int 5
