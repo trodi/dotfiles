@@ -1,6 +1,8 @@
 "*":
   "atom-typescript": {}
-  core: {}
+  core:
+    closeDeletedFileTabs: true
+    telemetryConsent: "limited"
   editor:
     invisibles: {}
     showIndentGuide: true
@@ -8,10 +10,13 @@
     tabLength: 4
   "exception-reporting":
     userId: "f7a458c4-0059-94aa-5d24-065e8a046778"
-  linter:
-    errorPanelHeight: 50
+  linter: {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".source.ts":
