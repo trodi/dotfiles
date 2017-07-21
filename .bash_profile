@@ -1,4 +1,7 @@
 # environment vars
+# Pull in env vars etc. that shouldn't be public
+source ~/.secrets
+
 # global install of electron prebuilts
 export ELECTRON_PATH=/usr/local/lib/node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron
 
