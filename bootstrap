@@ -15,7 +15,13 @@ fi
 
 brew update
 echo '  Installing brew cmd utils...'
+# update to bash v4
 brew install bash
+# Add the new shell to the list of allowed shells
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# Change to the new shell
+chsh -s /usr/local/bin/bash
+
 brew install node
 
 echo '  Installing gui apps via homebrew-cask...'
