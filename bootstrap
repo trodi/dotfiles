@@ -15,6 +15,7 @@ fi
 
 brew update
 echo '  Installing brew cmd utils...'
+brew install bash
 brew install node
 
 echo '  Installing gui apps via homebrew-cask...'
