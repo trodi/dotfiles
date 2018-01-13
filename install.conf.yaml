@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.bash_profile: '.bash_profile'
+    ~/.sqliterc: '.sqliterc'
+
+- brewfile:
+    - Brewfile
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: source macos.sh
+    stdin: true
+    stdout: true
+    description: Setting up osx preferences
+  - [source final.sh, Post install tasks]
