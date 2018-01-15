@@ -5,3 +5,6 @@ chsh -s /usr/local/bin/bash
 
 # Create .secrets
 touch ~/.secrets
+
+# Install vscode extensions
+code --install-extension ms-vscode.atom-keybindings
