@@ -9,6 +9,10 @@
     ~/.bash_profile: '.bash_profile'
     ~/.git-completion.bash: 'git-completion.bash'
     ~/.sqliterc: '.sqliterc'
+    ~/Library/Application Support/Code/User/settings.json:
+      create: true
+      force: true
+      path: 'vscode/settings.json'
 
 - brewfile:
     - Brewfile
@@ -20,4 +24,5 @@
     stdin: true
     stdout: true
     description: Setting up osx preferences
+  - [source vscode/install-extensions.sh, Installing VSCode extensions]
   - [source final.sh, Post install tasks]
