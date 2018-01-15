@@ -7,7 +7,7 @@ PATH+=:$HOME/bin
 
 # Git
 # auto completion (https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
-source ~/git-completion.bash
+source ~/.git-completion.bash
 
 # NPM (requires bash v4)
 # auto completion

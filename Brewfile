@@ -1,5 +1,7 @@
 # Packages
 brew 'bash' # Update to bash v4
+brew 'git'
+brew 'sqlite'
 brew 'node'
 
 # Casks
@@ -10,6 +12,8 @@ cask 'github'
 cask 'sourcetree'
 cask 'atom'
 cask 'visual-studio-code'
+cask 'microsoft-office'
+cask 'caskroom/versions/vmware-fusion8'
 
 # Other casks -- don't install by default
 # cask 'plex-home-theater'
