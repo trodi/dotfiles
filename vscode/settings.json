@@ -3,6 +3,9 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
     "files.exclude": {
         ".vscode": true,
         "node_modules": true,
