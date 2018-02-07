@@ -1,7 +1,14 @@
 # dotfiles
-My dotfiles managed via dotbot.
+My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 
-## Steps to get new mac up and running
+## Setup New Mac
 * `xcode-select --install` | required for cmd line git
 * `mkdir devel && cd devel`
 * `git clone https://github.com/trodi/dotfiles.git && cd dotfiles && ./install`
+
+## Update Mac
+* Navigate to dotfiles repo on disk.
+* `./install`
+
+## Non Mac
+_Unimplemented, will have to edit the install script for full support. Currently, you'll have to manually copy any dotfiles from repo to the correct location._
