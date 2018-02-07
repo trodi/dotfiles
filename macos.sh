@@ -3,6 +3,9 @@
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
+# TextEdit: use plain text by default
+defaults write com.apple.TextEdit RichText -int 0
+
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
