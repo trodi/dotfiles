@@ -13,10 +13,11 @@ cask 'atom'
 cask 'visual-studio-code'
 cask 'microsoft-office'
 cask 'microsoft-azure-storage-explorer'
+cask 'skype-for-business'
 cask 'caskroom/versions/vmware-fusion7'
 
 # Other casks -- don't install by default
-# cask 'plex-home-theater'
+# cask 'plex-media-player'
 # cask 'anki'
 # cask 'gimp'
 # cask 'teamviewer'
