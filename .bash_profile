@@ -1,6 +1,12 @@
-# environment vars
+# Environment Vars
+# Electron development
+export ELECTRON_IS_DEV=1
+
 # Pull in env vars etc. that shouldn't be public
 source ~/.secrets
+
+# Pull in helpful functions
+source ~/.functions
 
 # Add bin for scripts. Allow execution: chmod +x ~/bin/<script.sh>
 PATH+=:$HOME/bin
@@ -14,6 +20,3 @@ source ~/.git-completion.bash
 source <(npm completion)
 # npx fallback
 source <(npx --shell-auto-fallback bash --no-install)
-
-# Electron development
-export ELECTRON_IS_DEV=1

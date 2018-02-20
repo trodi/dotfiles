@@ -7,6 +7,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: '.bash_profile'
+    ~/.functions: '.functions'
     ~/.git-completion.bash: 'git-completion.bash'
     ~/.sqliterc: '.sqliterc'
     ~/Library/Application Support/Code/User/settings.json:

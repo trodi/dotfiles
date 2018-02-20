@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Notify me when terminal completes command if terminal not in focus.
+# Can also call after long running task has already started.
+# example: sleep 5 ; n
+function n() {
+  tput bel
+}
