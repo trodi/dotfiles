@@ -5,6 +5,7 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 * `xcode-select --install` | required for cmd line git
 * `mkdir devel && cd devel`
 * `git clone https://github.com/trodi/dotfiles.git && cd dotfiles && ./install`
+* Install/setup anything that I've yet to automate ([manual](manual.md)).
 
 ## Update Mac
 * Navigate to dotfiles repo on disk.
