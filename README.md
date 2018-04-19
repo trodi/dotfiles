@@ -12,4 +12,5 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 * `./install`
 
 ## Non Mac
-_Unimplemented, will have to edit the install script for full support. Currently, you'll have to manually copy any dotfiles from repo to the correct location._
+_Unimplemented, will have to edit the install script for full support._
+* [Manual steps](windows.md)
