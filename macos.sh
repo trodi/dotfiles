@@ -2,13 +2,21 @@
 
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
+# Finder: show all file extensions
+defaults write -g AppleShowAllExtensions -bool true
 
 # TextEdit: use plain text by default
 defaults write com.apple.TextEdit RichText -int 0
 
-# Set a blazingly fast keyboard repeat rate
+# Keyboard: Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Mouse: Speed up mouse
+defaults write NSGlobalDomain com.apple.mouse.scaling 3.5
+
+# Show remaining battery percent
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # Bottom left screen corner -> Start screen saver
 defaults write com.apple.dock wvous-bl-corner -int 5
