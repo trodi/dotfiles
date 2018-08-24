@@ -16,5 +16,6 @@
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "window.zoomLevel": 0,
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "breadcrumbs.enabled": true
 }
