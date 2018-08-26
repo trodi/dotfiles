@@ -6,8 +6,11 @@ brew 'node'
 # Casks
 tap 'caskroom/cask'
 
-# General
+# Browsers
 cask 'google-chrome'
+cask 'brave'
+
+# General
 cask 'ccleaner'
 
 # Personal
