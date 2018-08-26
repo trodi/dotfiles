@@ -7,6 +7,7 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 * `mkdir devel && cd devel`
 * `git clone https://github.com/trodi/dotfiles.git && cd dotfiles && ./install`
 * Install/setup anything that I've yet to automate ([manual](manual.md)).
+* Sign into Chrome to get synced extensions etc.
 
 ## Update Mac
 * Navigate to dotfiles repo on disk.
