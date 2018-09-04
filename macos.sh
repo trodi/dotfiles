@@ -4,6 +4,13 @@
 defaults write com.apple.finder AppleShowAllFiles -bool true
 # Finder: show all file extensions
 defaults write -g AppleShowAllExtensions -bool true
+# Finder: Use list view in all Finder windows by default (`icnv`, `clmv`, `Flwv`)
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# Finder: Disable the warning before emptying the Trash
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+# Set HOME as the default location for new Finder windows
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
 
 # TextEdit: use plain text by default
 defaults write com.apple.TextEdit RichText -int 0
