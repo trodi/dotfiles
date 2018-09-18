@@ -8,7 +8,11 @@
     ~/.dotfiles: ''
     ~/.bash_profile: '.bash_profile'
     ~/.functions: '.functions'
-    ~/.git-completion.bash: 'git-completion.bash'
+    ~/.gitignore_global: 'git/.gitignore_global'
+    ~/.gitconfig:
+        force: true
+        path: "git/.gitconfig"
+    ~/.git-completion.bash: 'git/git-completion.bash'
     ~/.sqliterc: '.sqliterc'
     ~/Library/Application Support/Code/User/settings.json:
       create: true

@@ -1,0 +1,8 @@
+[alias]
+	# View abbreviated log (format based on --oneline)
+	l = log --graph -n 20 --pretty=format:'%C(yellow)%h %Creset%s %C(blue)%an %C(green)%ar'
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Troy McKinnon
+	email = troy.t.mckinnon@gmail.com
