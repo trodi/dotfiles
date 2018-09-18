@@ -30,6 +30,8 @@ cask 'microsoft-azure-storage-explorer'
 cask 'microsoft-teams'
 cask 'skype-for-business'
 cask 'caskroom/versions/vmware-fusion7'
+cask 'dotnet'
+cask 'dotnet-sdk'
 
 # Other casks -- don't install by default
 # cask 'anki'
