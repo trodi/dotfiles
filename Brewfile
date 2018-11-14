@@ -1,9 +1,13 @@
-# Packages
+# Packages --------------------------------------
 brew 'bash' # Update to bash v4
 brew 'git'
 brew 'node'
 
-# Casks
+# Work
+brew 'mono'
+brew 'mono-mdk'
+
+# Casks -----------------------------------------
 tap 'caskroom/cask'
 
 # Browsers
