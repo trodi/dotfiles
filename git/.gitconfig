@@ -1,6 +1,6 @@
 [alias]
 	# View abbreviated log (format based on --oneline)
-	l = log --graph -n 20 --date=short --pretty=format:'%C(yellow)%h %Creset%s %C(blue)%an %C(green)%cd %C(yellow)%(trailers)'
+	l = log --color=always --graph  --date=short --pretty=tformat:'%C(yellow)%h %Creset%s %C(blue)%an %C(green)%cd %C(yellow)%(trailers:separator=)'
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
