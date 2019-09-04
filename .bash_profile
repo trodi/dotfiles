@@ -15,6 +15,10 @@ PATH+=:$HOME/bin
 # auto completion (https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 source ~/.git-completion.bash
 
+# Path for building with mono
+# https://github.com/tjanczuk/edge
+export PKG_CONFIG_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig
+
 # NPM (requires bash v4)
 # auto completion
 source <(npm completion)
