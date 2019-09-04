@@ -15,6 +15,7 @@
         "**/*.js.map": true
     },
     "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.quoteStyle": "double",
     "window.zoomLevel": 0,
     "explorer.openEditors.visible": 0
 }
