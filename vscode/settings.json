@@ -17,5 +17,19 @@
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.preferences.quoteStyle": "double",
     "window.zoomLevel": 0,
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "spellright.documentTypes": [
+        "plaintext",
+        "markdown",
+        "typescript",
+        "html"
+    ],
+    "spellright.spellContextByClass": {
+        "typescript": "comments",
+        "html": "comments"
+    },
+    "spellright.notificationClass": "warning",
+    "markdownlint.config": {
+        "MD007": { "indent": 4 }
+    }
 }
