@@ -16,3 +16,6 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 ## Non Mac
 _Unimplemented, will have to edit the install script for full support._
 * [Manual steps](windows.md)
+
+## License
+[MIT License](LICENSE)
