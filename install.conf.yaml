@@ -30,4 +30,5 @@
     stdout: true
     description: Setting up osx preferences
   - [source vscode/install-extensions.sh, Installing VSCode extensions]
+  - [source npm.sh, Installing global npm packages]
   - [source final.sh, Post install tasks]
