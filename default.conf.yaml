@@ -2,6 +2,9 @@
     link:
       relink: true
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
 - clean: ['~']
 
 - link:
@@ -20,10 +23,9 @@
       path: 'vscode/settings.json'
 
 - brewfile:
-    - Brewfile
+    - brewfile
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
   -
     command: source macos.sh
     stdin: true

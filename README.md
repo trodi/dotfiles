@@ -13,8 +13,10 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 
 ## Update Mac
 
-* Navigate to dotfiles repo on disk.
-* `./install`
+* Navigate to dotfiles repo on disk
+* Run install with any additional profiles:
+    * `./install`
+    * `./install personal work foobar`
 
 ## Non Mac
 
