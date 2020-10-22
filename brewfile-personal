@@ -1,0 +1,9 @@
+# Packages --------------------------------------
+
+# Casks -----------------------------------------
+tap 'homebrew/cask'
+
+cask 'ccleaner'
+cask 'plex-media-player'
+cask 'discord'
+cask 'steam'
