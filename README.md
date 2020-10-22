@@ -1,7 +1,9 @@
 # dotfiles
+
 My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 
 ## Setup New Mac
+
 * `xcode-select --install` # required for cmd line git
 * `sudo xcode-select --switch /Library/Developer/CommandLineTools` # Enable command line tools
 * `mkdir devel && cd devel`
@@ -10,12 +12,16 @@ My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 * Sign into Chrome to get synced extensions etc.
 
 ## Update Mac
+
 * Navigate to dotfiles repo on disk.
 * `./install`
 
 ## Non Mac
+
 _Unimplemented, will have to edit the install script for full support._
+
 * [Manual steps](windows.md)
 
 ## License
+
 [MIT License](LICENSE)
