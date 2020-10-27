@@ -25,6 +25,9 @@ defaults write NSGlobalDomain com.apple.mouse.scaling 3.5
 # Show remaining battery percent
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
+# Custom date time format for menubar clock
+defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d h:mm a"
+
 # Bottom left screen corner -> Start screen saver
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
