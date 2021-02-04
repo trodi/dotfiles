@@ -1,4 +1,5 @@
 # Packages --------------------------------------
+brew 'svn'
 # brew 'mono'
 # brew 'mono-mdk'
 
@@ -6,7 +7,8 @@
 tap 'homebrew/cask'
 
 cask 'microsoft-office'
-# cask 'microsoft-azure-storage-explorer'
+cask 'microsoft-azure-storage-explorer'
+cask 'smartsvn'
 # cask 'microsoft-teams'
 # cask 'caskroom/versions/vmware-fusion7'
 # cask 'dotnet'

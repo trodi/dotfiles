@@ -1,5 +1,5 @@
 # Packages --------------------------------------
-brew 'bash' # Update to bash v4
+# brew 'bash' # Update to bash v4
 brew 'git'
 brew 'node'
 
@@ -8,14 +8,15 @@ tap 'homebrew/cask'
 
 # Browsers
 cask 'google-chrome'
-cask 'brave'
+cask 'brave-browser'
 
 # General
 cask 'ccleaner'
+cask 'kap'
 
 # Dev
 cask 'github'
-cask 'sourcetree'
+# cask 'sourcetree'
 # cask 'atom'
 cask 'visual-studio-code'
 
