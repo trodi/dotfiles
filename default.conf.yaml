@@ -9,6 +9,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.zprofile: '.zprofile'
     ~/.bash_profile: '.bash_profile'
     ~/.functions: '.functions'
     ~/.gitignore_global: 'git/.gitignore_global'
