@@ -6,10 +6,11 @@ brew 'svn'
 # Casks -----------------------------------------
 tap 'homebrew/cask'
 
+cask 'microsoft-teams'
 cask 'microsoft-office'
 cask 'microsoft-azure-storage-explorer'
 cask 'smartsvn'
-# cask 'microsoft-teams'
+
 # cask 'caskroom/versions/vmware-fusion7'
 # cask 'dotnet'
 # cask 'dotnet-sdk'

@@ -5,3 +5,4 @@ code --install-extension yzane.markdown-pdf
 code --install-extension ban.spellright
 code --install-extension davidanson.vscode-markdownlint
 code --install-extension eamodio.gitlens
+code --install-extension angular.ng-template
