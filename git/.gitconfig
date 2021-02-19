@@ -6,3 +6,5 @@
 [user]
 	name = Troy McKinnon
 	email = troy.t.mckinnon@gmail.com
+[pull]
+	ff = only
