@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Always show scrollbars
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+# Possible values: `WhenScrolling`, `Automatic` and `Always`
+
+# Automatically quit printer app once the print jobs complete
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 # Finder: show all file extensions
