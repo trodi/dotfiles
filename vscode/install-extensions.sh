@@ -6,3 +6,4 @@ code --install-extension ban.spellright
 code --install-extension davidanson.vscode-markdownlint
 code --install-extension eamodio.gitlens
 code --install-extension angular.ng-template
+code --install-extension grapecity.gc-excelviewer
