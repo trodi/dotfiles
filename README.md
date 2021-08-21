@@ -1,6 +1,6 @@
-# dotfiles
+<img src="./dotfiles-logo.png">
 
-My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
+> My dotfiles managed via [dotbot](https://github.com/anishathalye/dotbot).
 
 ## Setup New Mac
 
