@@ -6,7 +6,6 @@ tap 'homebrew/cask'
 cask 'microsoft-teams'
 cask 'microsoft-office'
 cask 'microsoft-azure-storage-explorer'
-cask 'rectangle'
 
 # cask 'caskroom/versions/vmware-fusion7'
 # cask 'dotnet'

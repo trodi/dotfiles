@@ -13,6 +13,7 @@ cask 'brave-browser'
 # General
 cask 'ccleaner'
 cask 'kap'
+cask 'rectangle'
 
 # Dev
 cask 'github'
