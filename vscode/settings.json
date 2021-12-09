@@ -4,6 +4,7 @@
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
     "editor.scrollBeyondLastLine": false,
+    "editor.padding.bottom": 200,
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
     "files.exclude": {
@@ -12,7 +13,8 @@
         "**/*.js": {
             "when": "$(basename).ts"
         },
-        "**/*.js.map": true
+        "**/*.js.map": true,
+        "dist": true
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.preferences.quoteStyle": "single",
@@ -32,5 +34,6 @@
         "MD007": { "indent": 4 },
         "MD024": { "allow_different_nesting": true },
         "MD036": false
-    }
+    },
+    "editor.renderWhitespace": "all"
 }
