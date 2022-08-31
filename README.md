@@ -9,7 +9,8 @@
 * `mkdir devel && cd devel`
 * `git clone https://github.com/trodi/dotfiles.git && cd dotfiles && ./install`
 * Install/setup anything that I've yet to automate ([manual](manual.md)).
-* Sign into Chrome to get synced extensions etc.
+* Sign into Brave to get synced extensions etc.
+* Update git config for work email if on work computer
 
 ## Update Mac
 

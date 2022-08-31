@@ -8,3 +8,6 @@
 	email = troy.t.mckinnon@gmail.com
 [pull]
 	ff = only
+[http]
+	# Ignore untrusted self signed cert we have on our on-prem server
+	sslVerify = false
