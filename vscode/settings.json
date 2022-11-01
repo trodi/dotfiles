@@ -43,11 +43,16 @@
     "Estis",
     "Ethium",
     "fwmurphy",
+    "Gantt",
     "gridster",
     "Kennon",
     "mastertrak",
     "mlink",
     "optafleet",
     "telit"
-  ]
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 12
 }
