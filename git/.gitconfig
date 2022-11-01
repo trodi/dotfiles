@@ -1,6 +1,11 @@
 [alias]
 	# View abbreviated log (format based on --oneline)
-	l = log --color=always --graph  --date=short --pretty=tformat:'%C(yellow)%h %Creset%s %C(blue)%an %C(green)%cd %C(yellow)%(trailers:separator=)'
+	l = log --color=always --graph  --date=short --pretty=tformat:'%C(yellow)%h %Creset%s %C(blue)%an %C(green)%cd %C(yellow)%(trailers:separator=)%C(red)%d'
+	ll = log --color=always --graph --date=short --pretty=tformat:'%C(blue)%h %C(green)%cd (%an) %C(white)%s%C(red)%d'
+	le = log --date=short --pretty=tformat:'%C(green)%cd - %Creset%s'
+	c = commit -am
+	r = rebase -i head~5
+	u = remote update origin --prune
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
