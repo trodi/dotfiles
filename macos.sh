@@ -36,7 +36,9 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d h:mm a"
 
 # Bottom left screen corner -> Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
+# defaults write com.apple.dock wvous-bl-corner -int 5
+# Bottom left screen corner -> Activate lock screen
+defaults write com.apple.dock wvous-bl-corner -int 13
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Bottom right screen corner -> Show desktop
