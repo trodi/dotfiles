@@ -7,6 +7,10 @@ cask 'microsoft-teams'
 cask 'microsoft-office'
 cask 'microsoft-azure-storage-explorer'
 
+# Mobile app development
+cask 'cocoapods'
+cask 'android-studio'
+
 # cask 'caskroom/versions/vmware-fusion7'
 # cask 'dotnet'
 # cask 'dotnet-sdk'

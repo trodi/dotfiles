@@ -4,8 +4,10 @@
 
 ## Setup New Mac
 
-* `xcode-select --install` # required for cmd line git
-* `sudo xcode-select --switch /Library/Developer/CommandLineTools` # Enable command line tools
+* Install `xcode` via app store
+    * If not requiring mobile app dev, alternatively:
+        * `xcode-select --install` # required for cmd line git
+        * `sudo xcode-select --switch /Library/Developer/CommandLineTools` # Enable command line tools
 * `mkdir devel && cd devel`
 * `git clone https://github.com/trodi/dotfiles.git && cd dotfiles && ./install`
 * Install/setup anything that I've yet to automate ([manual](manual.md)).
