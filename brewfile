@@ -1,27 +1,28 @@
 # Packages --------------------------------------
 # brew 'bash' # Update to bash v4
 brew 'git'
-brew 'node'
+# brew 'node'
+# Older versions of node will not be added to the $PATH automatically by brew
+brew 'node@18'
+# brew 'python@3.8'
 
 # Casks -----------------------------------------
-tap 'homebrew/cask'
 
 # Browsers
 cask 'google-chrome'
 cask 'brave-browser'
+cask 'firefox'
 
 # General
-cask 'ccleaner'
 cask 'kap'
 cask 'rectangle'
+cask 'zoom'
 
 # Dev
 cask 'github'
-# cask 'sourcetree'
-# cask 'atom'
+cask 'sourcetree'
 cask 'visual-studio-code'
 
 # Other casks of interest
-# cask 'anki'
+cask 'anki'
 # cask 'gimp'
-# cask 'teamviewer'

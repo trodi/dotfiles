@@ -17,7 +17,10 @@ source ~/.git-completion.bash
 
 # Path for building with mono
 # https://github.com/tjanczuk/edge
-export PKG_CONFIG_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig
+# export PKG_CONFIG_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig
+
+# Path for python
+# export PYTHON=/usr/bin/python3
 
 # NPM (requires bash v4)
 # auto completion

@@ -19,16 +19,9 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.preferences.quoteStyle": "single",
-  "spellright.documentTypes": ["plaintext", "markdown", "typescript", "html"],
-  "spellright.spellContextByClass": {
-    "typescript": "comments",
-    "html": "comments"
-  },
-  "spellright.notificationClass": "warning",
   "markdownlint.config": {
     "MD007": { "indent": 4 },
     "MD024": { "allow_different_nesting": true },
-    "MD036": false,
     "MD030": false
   },
   "editor.renderWhitespace": "all",
@@ -38,7 +31,12 @@
   "workbench.colorTheme": "Monokai Dimmed",
   "markdown-pdf.displayHeaderFooter": false,
   "cSpell.userWords": [
+    "Aditya",
+    "Cayle",
+    "datapoint",
     "datapoints",
+    "devel",
+    "EBITDA",
     "econtrols",
     "Estis",
     "Ethium",
@@ -49,10 +47,14 @@
     "mastertrak",
     "mlink",
     "optafleet",
-    "telit"
+    "roadmap",
+    "telit",
+    "townhall"
   ],
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.tree.indent": 12
+  "workbench.tree.indent": 12,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.codeLens": false
 }

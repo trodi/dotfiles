@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
@@ -15,9 +25,14 @@ defaults write -g AppleShowAllExtensions -bool true
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # Finder: Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
-# Set HOME as the default location for new Finder windows
+# Finder: Set HOME as the default location for new Finder windows
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
+# Finder: Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# Finder: Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # TextEdit: use plain text by default
 defaults write com.apple.TextEdit RichText -int 0
@@ -29,17 +44,16 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # Mouse: Speed up mouse
 defaults write NSGlobalDomain com.apple.mouse.scaling 3.5
 
-# Show remaining battery percent
-defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
-# Custom date time format for menubar clock
+# Menubar: Show remaining battery percent
+defaults write /Users/$(whoami)/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+# Menubar: Custom date time format for menubar clock
 defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d h:mm a"
 
 # Bottom left screen corner -> Start screen saver
 # defaults write com.apple.dock wvous-bl-corner -int 5
 # Bottom left screen corner -> Activate lock screen
-defaults write com.apple.dock wvous-bl-corner -int 13
-defaults write com.apple.dock wvous-bl-modifier -int 0
+# defaults write com.apple.dock wvous-bl-corner -int 13
+# defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Bottom right screen corner -> Show desktop
 defaults write com.apple.dock wvous-br-corner -int 4
