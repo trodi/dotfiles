@@ -9,7 +9,6 @@
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   "files.exclude": {
-    ".vscode": true,
     "node_modules": true,
     "**/*.js": {
       "when": "$(basename).ts"
@@ -28,7 +27,6 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.colorTheme": "Monokai Dimmed",
   "markdown-pdf.displayHeaderFooter": false,
   "cSpell.userWords": [
     "Aditya",
