@@ -15,8 +15,7 @@
 * Run install including any additional profiles (e.g., `./install` or `./install personal work foobar`)
     * Might have to turn on Full Disk Access for Terminal depending on what is installed (e.g., Parallels)
 * Sign into Brave to get synced extensions, sign into extensions, etc.
-    * PWAs, extensions, bookmarks are synced
-        * *It appears PWAs are **not** actually installed for you*
+    * *It appears PWAs are **not** actually installed for you* so manually install list: [here](./pwa.md)
 * Update git config for work email if on work computer
 * Set lock screen shortcut
     * Open System Preferences
@@ -30,6 +29,8 @@
     * Rectangle
     * MS Teams
     * MS Outlook
+* Setup "secondary click" set to right side
+* Turn on "use stacks" on desktop
 * Repeat for setting up any additional profiles (e.g., work vs personal)
 
 ## Update Mac
