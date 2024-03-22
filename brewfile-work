@@ -3,6 +3,12 @@
 # brew 'subversion'
 # brew 'sqlite'
 
+# tap 'isen-ng/dotnet-sdk-versions'
+brew 'dotnet-sdk6-0-400'
+
+# tap 'azure/functions'
+brew 'azure-functions-core-tools@4'
+
 # Casks -----------------------------------------
 cask 'microsoft-teams'
 cask 'microsoft-office'

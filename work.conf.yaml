@@ -1,2 +1,6 @@
 - brewfile:
     - brewfile-work
+
+- tap:
+    - isen-ng/dotnet-sdk-versions
+    - azure/functions

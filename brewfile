@@ -25,4 +25,3 @@ cask 'visual-studio-code'
 
 # Other casks of interest
 cask 'anki'
-# cask 'gimp'
