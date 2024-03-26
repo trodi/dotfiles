@@ -1,6 +1,7 @@
 # Packages --------------------------------------
 # brew 'bash' # Update to bash v4
 brew 'git'
+brew 'git-extras'
 # brew 'node'
 # Older versions of node will not be added to the $PATH automatically by brew
 brew 'node@18'
