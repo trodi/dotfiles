@@ -24,8 +24,13 @@ autoload -Uz compinit && compinit
 # export PKG_CONFIG_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig
 
 # Path for python
-# export PYTHON=/usr/bin/python3
+export PYTHON=/usr/bin/python3
+export PATH=/usr/bin/python3:$PATH
 
 # NPM
 # auto completion
 source <(npm completion)
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -20,7 +20,7 @@ source ~/.git-completion.bash
 # export PKG_CONFIG_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib/pkgconfig
 
 # Path for python
-# export PYTHON=/usr/bin/python3
+export PYTHON=/usr/bin/python3
 
 # NPM (requires bash v4)
 # auto completion

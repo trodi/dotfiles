@@ -20,7 +20,7 @@
   "typescript.preferences.quoteStyle": "single",
   "markdownlint.config": {
     "MD007": { "indent": 4 },
-    "MD024": { "allow_different_nesting": true },
+    "MD024": { "siblings_only": true },
     "MD030": false
   },
   "editor.renderWhitespace": "all",
@@ -36,6 +36,9 @@
     "devel",
     "EBITDA",
     "econtrols",
+    "EDIS",
+    "EICS",
+    "Elink",
     "Estis",
     "Ethium",
     "fwmurphy",
@@ -44,6 +47,7 @@
     "Kennon",
     "mastertrak",
     "mlink",
+    "Newtonsoft",
     "optafleet",
     "roadmap",
     "telit",
@@ -52,7 +56,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.tree.indent": 12,
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.codeLens": false
+  "editor.codeLens": false,
+  "workbench.colorTheme": "Default Light Modern",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 20
 }
