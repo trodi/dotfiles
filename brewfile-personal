@@ -5,3 +5,5 @@
 cask 'discord'
 cask 'steam'
 cask 'godot'
+
+# cask 'blender'

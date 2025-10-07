@@ -4,7 +4,9 @@
 # brew 'sqlite'
 
 # tap 'isen-ng/dotnet-sdk-versions'
-brew 'dotnet-sdk6-0-400'
+#brew 'dotnet-sdk6-0-400'
+
+brew 'dotnet-sdk'
 
 # tap 'azure/functions'
 brew 'azure-functions-core-tools@4'

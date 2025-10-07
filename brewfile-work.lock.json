@@ -1,0 +1,54 @@
+{
+  "entries": {
+    "cask": {
+      "microsoft-teams": {
+        "version": "23320.3107.2575.3762",
+        "options": {
+          "full_name": "microsoft-teams"
+        }
+      },
+      "microsoft-office": {
+        "version": "16.80.23121017",
+        "options": {
+          "full_name": "microsoft-office"
+        }
+      },
+      "microsoft-azure-storage-explorer": {
+        "version": "1.32.1",
+        "options": {
+          "full_name": "microsoft-azure-storage-explorer"
+        }
+      },
+      "parallels": {
+        "version": "19.2.1-54832",
+        "options": {
+          "full_name": "parallels"
+        }
+      },
+      "cocoapods": {
+        "version": "1.5.2",
+        "options": {
+          "full_name": "cocoapods"
+        }
+      },
+      "android-studio": {
+        "version": "2023.1.1.27",
+        "options": {
+          "full_name": "android-studio"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "sonoma": {
+        "HOMEBREW_VERSION": "4.2.3",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "15.1.0.0.1.1700200546",
+        "Xcode": "15.2",
+        "macOS": "14.2.1"
+      }
+    }
+  }
+}

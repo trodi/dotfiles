@@ -4,7 +4,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # Electron development
 export ELECTRON_IS_DEV=1
 # Older versions of node aren't automatically added to the $PATH
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 
 # Pull in env vars etc. that shouldn't be public
 source ~/.secrets
@@ -34,3 +34,8 @@ source <(npm completion)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Automatically use version from .nvmrc if present
+if [ -f .nvmrc ]; then
+  nvm use --silent
+fi

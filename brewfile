@@ -4,7 +4,7 @@ brew 'git'
 brew 'git-extras'
 # brew 'node'
 # Older versions of node will not be added to the $PATH automatically by brew
-brew 'node@18'
+brew 'node@20'
 brew 'python@3.8'
 
 # Casks -----------------------------------------
