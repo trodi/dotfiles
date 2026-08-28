@@ -33,6 +33,8 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Finder: Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+# Finder: Automatically empty trash after 30 days
+defaults write com.apple.finder FXRemoveOldTrashItems -bool true
 
 # TextEdit: use plain text by default
 defaults write com.apple.TextEdit RichText -int 0
